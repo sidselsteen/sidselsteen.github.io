@@ -1,0 +1,203 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+.center{
+    left: 50%;
+    transform: translate(-50%);
+}
+
+html body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    width: 80%; 
+    position: relative; 
+    left: 50%;
+    transform: translate(-50%);
+    
+}
+#header_wrapper{
+    position: relative;
+    width: 70%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+
+#header1 ul, #header1 {
+    display: inline-block;
+}
+
+#bon, #voyage{
+    display: inline-block;
+    font-family: verdana;
+}
+
+#logo{
+    width: 100px;
+}
+
+#header1{
+    text-align: center;
+    font-family: andale mono;
+    width: 100%;
+}
+
+#bon{
+    font-weight: lighter;
+}
+
+form{
+    padding-left: 10px;
+    top: 15px;
+    display: inline-block;
+    clear: both;
+}
+
+#header1 li{
+    list-style: none;
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+h1{
+    text-align: center; 
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-size: 70px;
+    font-family: Andale mono; 
+    position: relative;
+}
+
+nav{
+    background-color: white;
+    color: black;
+    padding-bottom: 10px;
+    padding-top: 5px; 
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+    border-bottom: 1px solid grey; 
+    opacity: 0.9; 
+    
+}
+
+nav li{
+    list-style-type: none;
+    display: inline-block;
+    padding-right: 70px;
+    font-family: andale mono;
+    font-size: 20px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+nav #right{
+    padding-right: 0px;
+}
+
+
+#main h1{
+    font-size: 50px;
+}
+    
+
+#main_wrapper{
+    background-image: url("../images/forside1.jpg");
+    width: 100%;
+    height: 574px;
+    background-size: contain;
+}
+    
+
+#img_text{
+    position: absolute;
+    left: 50%;
+    top: 80%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 50px;
+    font-family: andale mono;  
+}
+
+.billedekategori {
+    display: flex;
+    margin-bottom:  150px;
+    flex-direction: row;
+    height: 250px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+#tekst {
+    font-size: 18; 
+    font-family: andale mono; 
+    text-align: justify; 
+    margin-bottom: 50px;
+}
+    
+#overskrift {
+    text-align: center; 
+    font-size: 30px; 
+    font-family: andale mono; 
+}
+
+#collage1 {
+    display: flex;
+    margin-bottom:  140px;
+    flex-direction: row;
+    height: 250px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#collage2 {
+    display: flex;
+    margin-bottom:  120px;
+    flex-direction: row;
+    height: 500px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+#collage10 {
+    display: flex;
+    margin-bottom:  200px;
+    flex-direction: row;
+    height: 500px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+
+#collage11 {
+    display: flex;
+    margin-bottom: 50px;
+    flex-direction: row;
+    height: 500px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+    
+.underoverskrift {
+    font-size: 20px; 
+    color: black;
+    text-decoration: none;
+}
+
+
